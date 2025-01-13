@@ -8,11 +8,13 @@
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "bun-types": "^1.1.33",
+    "dotenv": "^8.2.0",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-simple-import-sort": "^12.0.0",
+    "node-fetch": "^3.3.2",
     "prettier": "^3.2.5",
     "release-it": "^17.10.0",
     "tsx": "^4.19.2",
@@ -53,19 +55,19 @@
         "types": [
           {
             "type": "feat",
-            "section": "✨ Features"
+            "section": "\u2728 Features"
           },
           {
             "type": "fix",
-            "section": "🐛 Bug Fixes"
+            "section": "\ud83d\udc1b Bug Fixes"
           },
           {
             "type": "chore(deps)",
-            "section": "🛠️ Dependency Upgrades"
+            "section": "\ud83d\udee0\ufe0f Dependency Upgrades"
           },
           {
             "type": "docs",
-            "section": "📚 Documentation"
+            "section": "\ud83d\udcda Documentation"
           }
         ]
       },
